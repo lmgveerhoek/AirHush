@@ -11,6 +11,7 @@
 		50F42A8E2BF29A30008D8D03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F42A8D2BF29A30008D8D03 /* ContentView.swift */; };
 		50F42A902BF29A33008D8D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F42A8F2BF29A33008D8D03 /* Assets.xcassets */; };
 		50F42A932BF29A33008D8D03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F42A922BF29A33008D8D03 /* Preview Assets.xcassets */; };
+		50F42A9B2BF29AA6008D8D03 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F42A9A2BF29AA6008D8D03 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		50F42A8F2BF29A33008D8D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F42A922BF29A33008D8D03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50F42A942BF29A33008D8D03 /* AirHush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirHush.entitlements; sourceTree = "<group>"; };
+		50F42A9A2BF29AA6008D8D03 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				50F42A8F2BF29A33008D8D03 /* Assets.xcassets */,
 				50F42A942BF29A33008D8D03 /* AirHush.entitlements */,
 				50F42A912BF29A33008D8D03 /* Preview Content */,
+				50F42A9A2BF29AA6008D8D03 /* NetworkManager.swift */,
 			);
 			path = AirHush;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F42A9B2BF29AA6008D8D03 /* NetworkManager.swift in Sources */,
 				50F42A8E2BF29A30008D8D03 /* ContentView.swift in Sources */,
 				50F42A8C2BF29A30008D8D03 /* AirHushApp.swift in Sources */,
 			);
@@ -274,7 +278,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AirHush/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "AirHush/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -299,7 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AirHush/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "AirHush/Preview\\ Content";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
